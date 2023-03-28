@@ -1,6 +1,6 @@
 ---
 layout: page
-<!-- title: "Inventory Management with XGBoost" --> 
+#title: "Inventory Management with XGBoost"
 permalink: /home
 ---
 
