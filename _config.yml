@@ -1,0 +1,9 @@
+# Site settings
+title: Inventory Management for Grupo Bimbo (Mexican Bakery) using XGBoost
+author:
+  name: Morin
+  email: morintori@proton.me
+description: "Great site about building a XGBoost model for Inventory Management."
+
+# Build settings
+remote_theme: jekyll/minima
