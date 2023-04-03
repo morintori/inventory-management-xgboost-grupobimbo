@@ -5,9 +5,9 @@
 layout: home
 title: I created a XGBoost model using Pyspark
 ---
-Main project repo: [https://github.com/morintori/inventory-management-xgboost-grupobimbo] <br/>
-Dash app repo: [https://github.com/morintori/Grupo-App] <br/>
-Dash app: [https://grupo.shannonc.ca/] <br/>
+(Main project repo)[https://github.com/morintori/inventory-management-xgboost-grupobimbo] <br/>
+(Dash app repo)[https://github.com/morintori/Grupo-App] <br/>
+(Dash app)[https://grupo.shannonc.ca/] <br/>
 For the data I used this competition from Kaggle [https://www.kaggle.com/competitions/grupo-bimbo-inventory-demand/overview].
 I took the results and created a dashboard using dash, check it out in the link above.
 The goal of this competition is to predict the weekly demand for each product, sold through 45,000 routes for the Mexican Bakery, Grupo Bimbo.
