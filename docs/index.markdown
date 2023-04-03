@@ -43,6 +43,32 @@ Firstly, an important feature for predicting the current weeks demand is to comp
                      how='left')
 ```
 Second, I made frequency variables for the number of Sales Depot (Agencia), Sales Routes (Ruta_SAK), Clients and Products. For example, the Sales Depot frequency variable gives the number of times that that Sales Depot had deliveries sent to them in a given week.
+```python
++----------+-------------+
+|Agencia_ID|avg(nAgencia)|
++----------+-------------+
+|      3226|       3724.0|
+|      3213|      57741.0|
+|      1143|       7725.0|
+|      1223|      60862.0|
+|      1160|          5.0|
+|      1212|      48429.0|
+|      1259|      16857.0|
+|      1156|       2415.0|
+|      3211|      37313.0|
+|      1215|      47036.0|
+|      1114|       6723.0|
+|      2647|       2855.0|
+|      1218|      33177.0|
+|      1275|       6313.0|
+|      1113|      30922.0|
+|      1146|       8547.0|
+|      1250|        651.0|
+|      1222|      71356.0|
+|      1255|       1618.0|
+|      1252|        662.0|
++----------+-------------+
+```
 
 ```python
 /home/morin/miniconda3/envs/rapids-23.02/bin/python /home/morin/Documents/grupo/Model files/Model files/grupo pyspark.py 
