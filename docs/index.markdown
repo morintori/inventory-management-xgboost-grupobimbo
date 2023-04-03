@@ -7,6 +7,7 @@ title: I created a XGBoost model using Pyspark
 ---
 
 For the data I used this competition from Kaggle https://www.kaggle.com/competitions/grupo-bimbo-inventory-demand/overview.
+I took the results and created a dashboard using dash, check it out here, [grupo.shannonc.ca](grupo.shannonc.ca)
 The goal of this competition is to predict the weekly demand for each product, sold through 45,000 routes for the Mexican Bakery, Grupo Bimbo.
 Because bakery items tend to have a short shelf life, the demand for each product has to be accurately determined as we do not want clients to be facing
 empty shelves and for products to be sent back because they have been expired.
@@ -187,7 +188,9 @@ data = data.withColumnRenamed('prediction','Demanda_uni_equil')
 data.show()
 data.coalesce(1).write.options(header='True', delimiter = ',').mode('overwrite').csv('results2')
 ```
-I get a public score
+My score does not crack the leaderboard, but I know where I can make improvements. If I had an instance I could run the dataset through my model in its entirety. Furthermore I could use this model as the first layer and run another model and take the weighted average of the two. I could also cluster products into cluster and use that as another feature. I tried to do that but some of the clusters I got were not useful, the products are not easily separated into this method because a spanish NLP may not easily separate different types of products, these products have names such as "Gansito" (little goose) which would be hard for a nlp to separate if it does not have the context. 
+
+Thank you for reading and viewing my XGBoost model for inventory demand. Feel free to clone a copy and run my script.
 
 
 
