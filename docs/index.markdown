@@ -190,7 +190,7 @@ data.coalesce(1).write.options(header='True', delimiter = ',').mode('overwrite')
 ```
 My score does not crack the leaderboard, but I know where I can make improvements. If I had an instance I could run the dataset through my model in its entirety. Furthermore I could use this model as the first layer and run another model and take the weighted average of the two. I could also cluster products into cluster and use that as another feature. I tried to do that but some of the clusters I got were not useful, the products are not easily separated into this method because a spanish NLP may not easily separate different types of products, these products have names such as "Gansito" (little goose) which would be hard for a nlp to separate if it does not have the context. 
 
-Thank you for reading and viewing my XGBoost model for inventory demand. Feel free to clone a copy and run my script.
+Thank you for reading and viewing my XGBoost model for inventory demand. Feel free to clone a copy and run my script. You will need to download the dataset from the kaggle link above. I also have the pipeline models in the repository, create_predictions_with_plmodels.py can be run with the pretrained models to create predictions.
 
 
 
